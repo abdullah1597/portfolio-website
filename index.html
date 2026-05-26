@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Abdullah — Digital Marketer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADING SCREEN ===== -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-ring"></div>
+      <span class="loader-text">Loading</span>
+    </div>
+  </div>
+
+  <!-- ===== SCROLL PROGRESS BAR ===== -->
+  <div id="scroll-progress"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-container"><a href="#" class="logo"><img src="assets/images/logo.png" alt="Logo" class="logo-image"></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero"    class="nav-link">Home</a></li>
+        <li><a href="#about"   class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#techstack" class="nav-link">Tech Stack</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero">
+    <div class="hero-bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-image-col">
+        <div class="profile-ring">
+          <div class="profile-img-wrap">
+            <!-- Replace src with your actual image -->
+            <img src="assets/images/profile.png" alt="Muhammad Abdullah" class="profile-image">
+          </div>
+        </div>
+      </div>
+      <div class="hero-text-col">
+        <p class="hero-greeting reveal-up">Hi there 👋, I'm</p>
+        <h1 class="hero-name reveal-up delay-1">
+          <span class="gradient-text">Muhammad Abdullah</span>
+        </h1>
+        <div class="hero-typed-wrap reveal-up delay-2">
+          <span class="typed-prefix">I'm a </span>
+          <span id="typed-text" class="typed-text"></span>
+          <span class="typed-cursor">|</span>
+        </div>
+        <p class="hero-bio reveal-up delay-3">
+          Passionate Digital Marketer &amp; CS student crafting impactful digital experiences. Helping brands grow online with strategy, creativity, and data.
+        </p>
+        <div class="hero-buttons reveal-up delay-4">
+          <!-- Replace # with actual CV file link -->
+          <a href="assets/documents/cv.pdf" download class="btn btn-primary">
+    <i class="fas fa-download"></i> Download CV
+</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        </div>
+        <div class="hero-socials reveal-up delay-5">
+          <!-- Replace # with actual social links -->
+          <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/923193800097" class="social-icon" aria-label="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:abdullahsaeed979797@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-label reveal-up">Who I Am</div>
+      <h2 class="section-heading reveal-up delay-1">About <span class="gradient-text">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-card glass-card reveal-left">
+          <div class="about-icon"><i class="fas fa-user-tie"></i></div>
+          <div class="about-text">
+            <p>
+              Hi, I'm <strong>Muhammad Abdullah</strong>, a passionate Digital Marketer and Computer Science student currently studying BSCS at Barani Institute of Sciences, Sahiwal (PMAS - Arid Agriculture University Rawalpindi). I enjoy building digital solutions, learning modern technologies, and helping businesses grow online.
+            </p>
+            <p>
+              I have experience in Digital Marketing, Graphic Designing, Computer Operations, and E-Commerce tools. I continuously improve my skills and work on practical projects to gain real-world experience.
+            </p>
+          </div>
+        </div>
+        <div class="about-stats reveal-right">
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-target="30">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Projects Done</span>
+          </div>
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-target="3">0</span><span class="stat-plus"></span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+            <span class="stat-label">Dedication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section id="experience">
+    <div class="section-container">
+
+        <div class="section-label reveal-up">
+            My Journey
+        </div>
+
+        <h2 class="section-heading reveal-up delay-1">
+            Work <span class="gradient-text">Experience</span>
+        </h2>
+
+        <div class="timeline">
+
+            <!-- Experience 1 -->
+
+            <div class="timeline-item reveal-left">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card glass-card">
+
+                    <div class="exp-header">
+
+                        <div class="exp-icon">
+                            <i class="fas fa-cart-shopping"></i>
+                        </div>
+
+                        <div>
+
+                            <h3 class="exp-title">
+                                E-Commerce Developer
+                            </h3>
+
+                            <span class="exp-duration">
+                                <i class="fas fa-calendar-alt"></i>
+                                Present
+                            </span>
+
+                            <p class="exp-company">
+                                Personal Work
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="exp-desc">
+                        Working on E-Commerce platforms and online store development using WordPress and Shopify. Experienced in product listings, store customization, and digital selling solutions.
+                    </p>
+
+                    <div class="exp-tags">
+
+                        <span>Shopify</span>
+                        <span>WordPress</span>
+                        <span>E-Commerce</span>
+                        <span>Online Store</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Experience 2 -->
+
+            <div class="timeline-item reveal-right">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card glass-card">
+
+                    <div class="exp-header">
+
+                        <div class="exp-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+
+                        <div>
+
+                            <h3 class="exp-title">
+                                Digital Marketer
+                            </h3>
+
+                            <span class="exp-duration">
+                                <i class="fas fa-calendar-alt"></i>
+                                2025 – Present
+                            </span>
+
+                            <p class="exp-company">
+                                Freelance Work
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="exp-desc">
+                        Working as a Digital Marketer with practical knowledge of online marketing, social media management, WordPress basics, and audience engagement.
+                    </p>
+
+                    <div class="exp-tags">
+
+                        <span>SEO</span>
+                        <span>Social Media</span>
+                        <span>WordPress</span>
+                        <span>Analytics</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Experience 3 -->
+
+            <div class="timeline-item reveal-left">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card glass-card">
+
+                    <div class="exp-header">
+
+                        <div class="exp-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+
+                        <div>
+
+                            <h3 class="exp-title">
+                                Graphic Designer
+                            </h3>
+
+                            <span class="exp-duration">
+                                <i class="fas fa-calendar-alt"></i>
+                                2023 – Present
+                            </span>
+
+                            <p class="exp-company">
+                                Personal Work
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="exp-desc">
+                        Experienced in CorelDRAW and graphic designing. I create logos, banners, posters, and professional visual content.
+                    </p>
+
+                    <div class="exp-tags">
+
+                        <span>CorelDRAW</span>
+                        <span>Photoshop</span>
+                        <span>Logos</span>
+                        <span>Branding</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Experience 4 -->
+
+            <div class="timeline-item reveal-right">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card glass-card">
+
+                    <div class="exp-header">
+
+                        <div class="exp-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+
+                        <div>
+
+                            <h3 class="exp-title">
+                                Computer Operator
+                            </h3>
+
+                            <span class="exp-duration">
+                                <i class="fas fa-calendar-alt"></i>
+                                2020 – Present
+                            </span>
+
+                            <p class="exp-company">
+                                Personal Work
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="exp-desc">
+                        Advanced level Computer Operator with strong command over office tools, typing, file management, and professional computer handling.
+                    </p>
+
+                    <div class="exp-tags">
+
+                        <span>MS Office</span>
+                        <span>Typing</span>
+                        <span>File Management</span>
+                        <span>Windows</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+  <!-- ===== CERTIFICATIONS SECTION ===== -->
+  <section id="certifications">
+    <div class="section-container">
+      <div class="section-label reveal-up">Credentials</div>
+      <h2 class="section-heading reveal-up delay-1">My <span class="gradient-text">Certifications</span></h2>
+      <div class="cert-grid">
+
+        <!-- Cert 1 -->
+        <div class="cert-card glass-card reveal-up delay-1">
+          <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+          <div class="cert-glow"></div>
+          <h3 class="cert-title">Graphic Designing</h3>
+          <p class="cert-inst"><i class="fas fa-building"></i> Seven Stars Computer Institute</p>
+          <p class="cert-year"><i class="fas fa-calendar"></i> 2023</p>
+          <p class="cert-desc">Professional certification in graphic design principles, tools, and creative production.</p>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card glass-card reveal-up delay-2">
+          <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+          <div class="cert-glow"></div>
+          <h3 class="cert-title">Digital Marketing</h3>
+          <p class="cert-inst"><i class="fas fa-building"></i> Digital Marketing Institute</p>
+          <p class="cert-year"><i class="fas fa-calendar"></i> 2025</p>
+          <p class="cert-desc">Successfully completed Digital Marketing course with practical learning and modern marketing concepts.</p>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card glass-card reveal-up delay-3">
+          <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+          <div class="cert-glow"></div>
+          <h3 class="cert-title">E-Commerce</h3>
+          <p class="cert-inst"><i class="fas fa-building"></i> E-Commerce Training Center</p>
+          <p class="cert-year"><i class="fas fa-calendar"></i> 2024</p>
+          <p class="cert-desc">Completed E-Commerce training with understanding of online stores and digital selling platforms.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section id="education">
+    <div class="section-container">
+
+        <div class="section-label reveal-up">Academic</div>
+
+        <h2 class="section-heading reveal-up delay-1">
+            My <span class="gradient-text">Education</span>
+        </h2>
+
+        <div class="edu-wrap reveal-up delay-2">
+
+            <!-- Matric -->
+
+            <div class="edu-card glass-card">
+
+                <div class="edu-left">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+
+                <div class="edu-right">
+
+                    <h3 class="edu-degree">
+                        Matriculation <span>(Computer Science)</span>
+                    </h3>
+
+                    <p class="edu-duration">
+                        <i class="fas fa-calendar-alt"></i>
+                        2021 – 2023
+                    </p>
+
+                    <p class="edu-desc">
+                        Studied the basics of Computer Science and developed understanding of IT concepts and technology fundamentals.
+                    </p>
+
+                    <div class="edu-tags">
+                        <span>Computer Science</span>
+                        <span>IT Basics</span>
+                        <span>Technology</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Intermediate -->
+
+            <div class="edu-card glass-card">
+
+                <div class="edu-left">
+                    <div class="edu-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                </div>
+
+                <div class="edu-right">
+
+                    <h3 class="edu-degree">
+                        Intermediate <span>(ICS)</span>
+                    </h3>
+
+                    <p class="edu-duration">
+                        <i class="fas fa-calendar-alt"></i>
+                        2023 – 2025
+                    </p>
+
+                    <p class="edu-desc">
+                        Learned Computer Science, Mathematics, and Physics while improving logical thinking and technical understanding.
+                    </p>
+
+                    <div class="edu-tags">
+                        <span>Computer Science</span>
+                        <span>Mathematics</span>
+                        <span>Physics</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- BSCS -->
+
+            <div class="edu-card glass-card">
+
+                <div class="edu-left">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+
+                <div class="edu-right">
+
+                    <h3 class="edu-degree">
+                        Bachelor of Science in Computer Science <span>(BSCS)</span>
+                    </h3>
+
+                    <p class="edu-duration">
+                        <i class="fas fa-calendar-alt"></i>
+                        2026 – Present
+                    </p>
+
+                    <p class="edu-desc">
+                        Currently studying BSCS and improving knowledge in programming, digital technologies, problem solving, and modern computer science concepts.
+                    </p>
+
+                    <div class="edu-tags">
+                        <span>Computer Science</span>
+                        <span>Programming</span>
+                        <span>Digital Skills</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+  <!-- ===== TECH STACK SECTION ===== -->
+  <section id="techstack">
+    <div class="section-container">
+      <div class="section-label reveal-up">Tools & Skills</div>
+      <h2 class="section-heading reveal-up delay-1">Tech <span class="gradient-text">Stack</span></h2>
+      <div class="tech-grid">
+
+        <!-- Category 1 -->
+        <div class="tech-category glass-card reveal-up delay-1">
+          <div class="tech-cat-header">
+            <i class="fas fa-computer"></i>
+            <h3>Computer Operations</h3>
+          </div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <div class="tech-logo word"><i class="fas fa-file-word"></i></div>
+              <span>Microsoft Word</span>
+            </div>
+            <div class="tech-item">
+              <div class="tech-logo excel"><i class="fas fa-file-excel"></i></div>
+              <span>Microsoft Excel</span>
+            </div>
+            <div class="tech-item">
+              <div class="tech-logo ppt"><i class="fas fa-file-powerpoint"></i></div>
+              <span>PowerPoint</span>
+            </div>
+            <div class="tech-item">
+              <div class="tech-logo windows"><i class="fab fa-windows"></i></div>
+              <span>Windows</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2 -->
+        <div class="tech-category glass-card reveal-up delay-2">
+          <div class="tech-cat-header">
+            <i class="fas fa-paint-brush"></i>
+            <h3>Graphic Designing</h3>
+          </div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <div class="tech-logo corel"><i class="fas fa-draw-polygon"></i></div>
+              <span>CorelDRAW</span>
+            </div>
+            <div class="tech-item">
+              <div class="tech-logo photoshop"><i class="fas fa-image"></i></div>
+              <span>Photoshop</span>
+            </div>
+            <div class="tech-item">
+              <div class="tech-logo illustrator"><i class="fas fa-pen-nib"></i></div>
+              <span>Illustrator</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3 -->
+        <div class="tech-category glass-card reveal-up delay-3">
+          <div class="tech-cat-header">
+            <i class="fas fa-chart-line"></i>
+            <h3>Digital Marketing &amp; E-Commerce</h3>
+          </div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <div class="tech-logo wordpress"><i class="fab fa-wordpress"></i></div>
+              <span>WordPress</span>
+            </div>
+            <div class="tech-item">
+              <div class="tech-logo shopify"><i class="fas fa-shopping-bag"></i></div>
+              <span>Shopify</span>
+            </div>
+            <div class="tech-item">
+              <div class="tech-logo whatsapp"><i class="fab fa-whatsapp"></i></div>
+              <span>WhatsApp Business</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-label reveal-up">Get In Touch</div>
+      <h2 class="section-heading reveal-up delay-1">Contact <span class="gradient-text">Me</span></h2>
+      <div class="contact-grid">
+
+        <div class="contact-info reveal-left">
+          <div class="contact-info-card glass-card">
+            <h3>Let's Work Together</h3>
+            <p>Have a project in mind? I'd love to help. Reach out through any of these channels.</p>
+            <div class="contact-detail">
+              <div class="contact-icon"><i class="fas fa-user"></i></div>
+              <div>
+                <span class="contact-label">Name</span>
+                <!-- Edit name here -->
+                <span class="contact-value">Muhammad Abdullah</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="contact-label">Phone</span>
+                <!-- Edit phone here -->
+                <a href="tel:+923193800097" class="contact-value">+92 319 3800097</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <!-- Edit email here -->
+                <a href="mailto:abdullahsaeed979797@gmail.com" class="contact-value">abdullahsaeed979797@gmail.com</a>
+              </div>
+            </div>
+            <a href="https://wa.me/923193800097" class="btn btn-whatsapp" target="_blank">
+              <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal-right">
+          <form class="contact-form glass-card" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="f-name">Your Name</label>
+              <input type="text" id="f-name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="f-email">Email Address</label>
+              <input type="email" id="f-email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="f-subject">Subject</label>
+              <input type="text" id="f-subject" name="subject" placeholder="Project Inquiry" />
+            </div>
+            <div class="form-group">
+              <label for="f-message">Message</label>
+              <textarea id="f-message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <a href="#" class="footer-logo"><img src="assets/images/logo.png" alt="Logo" class="footer-logo-image"></a>
+        <div class="footer-socials">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/923193800097" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <!-- Edit copyright year/name here -->
+      <p class="footer-copy">&copy; 2026 Muhammad Abdullah. All rights reserved.</p>
+    </div>
+    <!-- Back to top -->
+    <button id="back-to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </footer>
+  <div class="cursor-dot"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
